@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E49B407201A027F0088559E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49B406201A027F0088559E /* AppDelegate.swift */; };
+		6E49B409201A027F0088559E /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49B408201A027F0088559E /* DocumentBrowserViewController.swift */; };
+		6E49B40B201A027F0088559E /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49B40A201A027F0088559E /* DocumentViewController.swift */; };
+		6E49B40D201A027F0088559E /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49B40C201A027F0088559E /* Document.swift */; };
+		6E49B410201A027F0088559E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E49B40E201A027F0088559E /* Main.storyboard */; };
+		6E49B412201A027F0088559E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E49B411201A027F0088559E /* Assets.xcassets */; };
+		6E49B415201A027F0088559E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E49B413201A027F0088559E /* LaunchScreen.storyboard */; };
+		6E49B420201A027F0088559E /* DocLockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49B41F201A027F0088559E /* DocLockerTests.swift */; };
+		6E49B42B201A027F0088559E /* DocLockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E49B42A201A027F0088559E /* DocLockerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E49B41C201A027F0088559E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E49B3FB201A027E0088559E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E49B402201A027F0088559E;
+			remoteInfo = DocLocker;
+		};
+		6E49B427201A027F0088559E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E49B3FB201A027E0088559E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E49B402201A027F0088559E;
+			remoteInfo = DocLocker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E49B403201A027F0088559E /* DocLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E49B406201A027F0088559E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E49B408201A027F0088559E /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
+		6E49B40A201A027F0088559E /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		6E49B40C201A027F0088559E /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		6E49B40F201A027F0088559E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E49B411201A027F0088559E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E49B414201A027F0088559E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E49B416201A027F0088559E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E49B41B201A027F0088559E /* DocLockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocLockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E49B41F201A027F0088559E /* DocLockerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocLockerTests.swift; sourceTree = "<group>"; };
+		6E49B421201A027F0088559E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E49B426201A027F0088559E /* DocLockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocLockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E49B42A201A027F0088559E /* DocLockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocLockerUITests.swift; sourceTree = "<group>"; };
+		6E49B42C201A027F0088559E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E49B400201A027F0088559E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E49B418201A027F0088559E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E49B423201A027F0088559E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E49B3FA201A027E0088559E = {
+			isa = PBXGroup;
+			children = (
+				6E49B405201A027F0088559E /* DocLocker */,
+				6E49B41E201A027F0088559E /* DocLockerTests */,
+				6E49B429201A027F0088559E /* DocLockerUITests */,
+				6E49B404201A027F0088559E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E49B404201A027F0088559E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E49B403201A027F0088559E /* DocLocker.app */,
+				6E49B41B201A027F0088559E /* DocLockerTests.xctest */,
+				6E49B426201A027F0088559E /* DocLockerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E49B405201A027F0088559E /* DocLocker */ = {
+			isa = PBXGroup;
+			children = (
+				6E49B406201A027F0088559E /* AppDelegate.swift */,
+				6E49B408201A027F0088559E /* DocumentBrowserViewController.swift */,
+				6E49B40A201A027F0088559E /* DocumentViewController.swift */,
+				6E49B40C201A027F0088559E /* Document.swift */,
+				6E49B40E201A027F0088559E /* Main.storyboard */,
+				6E49B411201A027F0088559E /* Assets.xcassets */,
+				6E49B413201A027F0088559E /* LaunchScreen.storyboard */,
+				6E49B416201A027F0088559E /* Info.plist */,
+			);
+			path = DocLocker;
+			sourceTree = "<group>";
+		};
+		6E49B41E201A027F0088559E /* DocLockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E49B41F201A027F0088559E /* DocLockerTests.swift */,
+				6E49B421201A027F0088559E /* Info.plist */,
+			);
+			path = DocLockerTests;
+			sourceTree = "<group>";
+		};
+		6E49B429201A027F0088559E /* DocLockerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E49B42A201A027F0088559E /* DocLockerUITests.swift */,
+				6E49B42C201A027F0088559E /* Info.plist */,
+			);
+			path = DocLockerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E49B402201A027F0088559E /* DocLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E49B42F201A027F0088559E /* Build configuration list for PBXNativeTarget "DocLocker" */;
+			buildPhases = (
+				6E49B3FF201A027F0088559E /* Sources */,
+				6E49B400201A027F0088559E /* Frameworks */,
+				6E49B401201A027F0088559E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocLocker;
+			productName = DocLocker;
+			productReference = 6E49B403201A027F0088559E /* DocLocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E49B41A201A027F0088559E /* DocLockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E49B432201A027F0088559E /* Build configuration list for PBXNativeTarget "DocLockerTests" */;
+			buildPhases = (
+				6E49B417201A027F0088559E /* Sources */,
+				6E49B418201A027F0088559E /* Frameworks */,
+				6E49B419201A027F0088559E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E49B41D201A027F0088559E /* PBXTargetDependency */,
+			);
+			name = DocLockerTests;
+			productName = DocLockerTests;
+			productReference = 6E49B41B201A027F0088559E /* DocLockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E49B425201A027F0088559E /* DocLockerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E49B435201A027F0088559E /* Build configuration list for PBXNativeTarget "DocLockerUITests" */;
+			buildPhases = (
+				6E49B422201A027F0088559E /* Sources */,
+				6E49B423201A027F0088559E /* Frameworks */,
+				6E49B424201A027F0088559E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E49B428201A027F0088559E /* PBXTargetDependency */,
+			);
+			name = DocLockerUITests;
+			productName = DocLockerUITests;
+			productReference = 6E49B426201A027F0088559E /* DocLockerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E49B3FB201A027E0088559E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Natash Bangera";
+				TargetAttributes = {
+					6E49B402201A027F0088559E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6E49B41A201A027F0088559E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E49B402201A027F0088559E;
+					};
+					6E49B425201A027F0088559E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E49B402201A027F0088559E;
+					};
+				};
+			};
+			buildConfigurationList = 6E49B3FE201A027E0088559E /* Build configuration list for PBXProject "DocLocker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E49B3FA201A027E0088559E;
+			productRefGroup = 6E49B404201A027F0088559E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E49B402201A027F0088559E /* DocLocker */,
+				6E49B41A201A027F0088559E /* DocLockerTests */,
+				6E49B425201A027F0088559E /* DocLockerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E49B401201A027F0088559E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E49B415201A027F0088559E /* LaunchScreen.storyboard in Resources */,
+				6E49B412201A027F0088559E /* Assets.xcassets in Resources */,
+				6E49B410201A027F0088559E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E49B419201A027F0088559E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E49B424201A027F0088559E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E49B3FF201A027F0088559E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E49B40D201A027F0088559E /* Document.swift in Sources */,
+				6E49B40B201A027F0088559E /* DocumentViewController.swift in Sources */,
+				6E49B409201A027F0088559E /* DocumentBrowserViewController.swift in Sources */,
+				6E49B407201A027F0088559E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E49B417201A027F0088559E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E49B420201A027F0088559E /* DocLockerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E49B422201A027F0088559E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E49B42B201A027F0088559E /* DocLockerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E49B41D201A027F0088559E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E49B402201A027F0088559E /* DocLocker */;
+			targetProxy = 6E49B41C201A027F0088559E /* PBXContainerItemProxy */;
+		};
+		6E49B428201A027F0088559E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E49B402201A027F0088559E /* DocLocker */;
+			targetProxy = 6E49B427201A027F0088559E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E49B40E201A027F0088559E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E49B40F201A027F0088559E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E49B413201A027F0088559E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E49B414201A027F0088559E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E49B42D201A027F0088559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E49B42E201A027F0088559E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E49B430201A027F0088559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2M48TDVYX;
+				INFOPLIST_FILE = DocLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnb.DocLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E49B431201A027F0088559E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2M48TDVYX;
+				INFOPLIST_FILE = DocLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnb.DocLocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E49B433201A027F0088559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2M48TDVYX;
+				INFOPLIST_FILE = DocLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnb.DocLockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocLocker.app/DocLocker";
+			};
+			name = Debug;
+		};
+		6E49B434201A027F0088559E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2M48TDVYX;
+				INFOPLIST_FILE = DocLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnb.DocLockerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocLocker.app/DocLocker";
+			};
+			name = Release;
+		};
+		6E49B436201A027F0088559E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2M48TDVYX;
+				INFOPLIST_FILE = DocLockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnb.DocLockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocLocker;
+			};
+			name = Debug;
+		};
+		6E49B437201A027F0088559E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2M48TDVYX;
+				INFOPLIST_FILE = DocLockerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnb.DocLockerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DocLocker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E49B3FE201A027E0088559E /* Build configuration list for PBXProject "DocLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E49B42D201A027F0088559E /* Debug */,
+				6E49B42E201A027F0088559E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E49B42F201A027F0088559E /* Build configuration list for PBXNativeTarget "DocLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E49B430201A027F0088559E /* Debug */,
+				6E49B431201A027F0088559E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E49B432201A027F0088559E /* Build configuration list for PBXNativeTarget "DocLockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E49B433201A027F0088559E /* Debug */,
+				6E49B434201A027F0088559E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E49B435201A027F0088559E /* Build configuration list for PBXNativeTarget "DocLockerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E49B436201A027F0088559E /* Debug */,
+				6E49B437201A027F0088559E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E49B3FB201A027E0088559E /* Project object */;
+}
