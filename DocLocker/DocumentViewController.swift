@@ -21,6 +21,7 @@ class DocumentViewController: UIViewController {
                 self.documentNameLabel.text = self.document?.fileURL.lastPathComponent
             } else {
                 // Make sure to handle the failed import appropriately, e.g., by presenting an error message to the user.
+                print("error opening doc")
             }
         })
     }

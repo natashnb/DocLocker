@@ -44,17 +44,12 @@ enum FileType: Int {
 
 
 /// Represents an entity in the file system
-/// This could have fun stuff like size, various flavors of checksum, 
-/// is it a directory, etc.
-public var sizeCount = 0
-public var typeCount = 0
 
 struct File {
     /// Where in the filesystem this particular file lives.
     let url: URL
 
     var fileSize: Int? {
-        sizeCount += 1
         //        return try? FileManager.default.attributesOfItem(atPath: url.path)[FileAttributeKey.size] as? Int ?? 0
         let values = try! url.resourceValues(forKeys: [.fileSizeKey])
         let size = values.fileSize ?? 0
@@ -63,12 +58,11 @@ struct File {
     
 
     var fileType: FileType {
-        typeCount += 1
 //        let type = ((try? FileManager.default.attributesOfItem(atPath: url.path)[FileAttributeKey.type] as? String) ?? "") ?? ""
 //        return FileType(type: type)
 
-        let values = try! url.resourceValues(forKeys: [.fileResourceTypeKey])
-        guard let type = values.fileResourceType else { return .unknown }
+        let values = try? url.resourceValues(forKeys: [.fileResourceTypeKey])
+        guard let type = values?.fileResourceType else { return .unknown }
         return FileType(resourceType: type)
     }
 

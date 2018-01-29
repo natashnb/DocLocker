@@ -10,15 +10,40 @@
 			<key>CFBundleTypeIconFiles</key>
 			<array/>
 			<key>CFBundleTypeName</key>
-			<string>Images</string>
+			<string>Videos</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>LSHandlerRank</key>
 			<string>Alternate</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>public.image</string>
+				<string>public.mpeg-4</string>
 			</array>
+			<key>UTImportedTypeDeclarations</key>
+			<array>
+				<dict>
+					<key>UTTypeConformsTo</key>
+					<array>
+						<string></string>
+					</array>
+					<key>UTTypeIdentifier</key>
+					<string></string>
+					<key>UTTypeTagSpecification</key>
+					<dict/>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.data</string>
+				<string>public.content</string>
+				<string>public.item</string>
+			</array>
+			<key>CFBundleTypeIconFiles</key>
+			<array/>
+			<key>CFBundleTypeName</key>
+			<string>All Files</string>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
@@ -60,9 +85,5 @@
 	</array>
 	<key>UISupportsDocumentBrowser</key>
 	<true/>
-	<key>UTImportedTypeDeclarations</key>
-	<array>
-		<dict/>
-	</array>
 </dict>
 </plist>
